@@ -1,0 +1,424 @@
+*{
+    margin:0;
+    font-family: arial;
+    border: border-box;
+    color: black;
+}
+
+body{
+    background-color: #f5f5fa;
+}
+
+.navbar{
+    height:100px;
+    background-color: white;
+    color:white;
+    display:flex;
+    align-items: center;
+    position: sticky;
+}
+
+.navlogo{
+    height: 150px;
+    width: 193px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    background-image: url("NaukriLogo.png");
+    background-size:cover;
+    height: 100px;
+    width: 195px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: -62px;
+}
+
+.headings{
+    margin-left: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.Jobs{
+    color: gray;
+    font-size: 01.2rem;
+}
+
+.buttons{
+    margin-left: 600px;
+}
+
+.login{
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid blue;
+    width: 90px;
+    color: blue;
+    font-size: 1rem;
+}
+
+.register{
+    border-radius: 30px;
+    width: 120px;
+    height: 30px;
+    border: none;
+    background-color: coral;
+    margin-left: 5px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.for{
+    height: 40px;
+    margin-left: 10px;
+    display: flex;
+    border-left: 1px solid grey;
+    padding-left: 10px;
+}
+
+.employers{
+    border: none;
+    color: grey;
+    font-size: 1.2rem;
+}
+
+.second-nav{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.content1{
+    font-size: 2.2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.content2{
+    font-size: 1rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.content3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 300px;
+    width: 1000px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    gap: 10px;
+}
+
+i{
+    border: none;
+    color: grey;
+    font-size: 1.5rem;
+    margin-left: 0px;
+}
+
+.input{
+    border: none;
+    color: grey;
+    font-size: 1.2rem;
+}
+
+.full{
+    border: none;
+    color: grey;
+    outline: none;
+    border-left: 1px solid grey;
+    margin-left: -10px;
+    padding-left: 10px;
+    margin-left: -50px;
+    font-size: 1.2rem;
+}
+
+.age{
+    border: none;
+    color: grey;
+    outline: none;
+    border-left: 1px solid grey;
+    margin-left: -8px;
+    padding-left: 10px;
+    font-size: 1.2rem;
+}
+
+.stream{
+    border: none;
+    color: grey;
+    outline: none;
+    border-left: 1px solid grey;
+    margin-left: -8px;
+    padding-left: 10px;
+    font-size: 1.2rem;
+}
+
+
+.loc{
+    border: none;
+    border-left: 1px solid grey;
+    padding-left: 10px;
+    font-size: 1.2rem;
+}
+
+.search{
+    background-color: rgb(32, 32, 182);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 90px;
+    height: 30px;
+    margin-left: -90px;
+    font-size: 1.2rem;
+}
+
+.third-nav{
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 90px 250px 100px 250px;
+}
+
+.box{
+    color: black;
+    font-size: 1.2rem;
+    background-color: white;
+    height: 50px;
+    width: 140px;
+    border-radius: 10px;
+    gap: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: satoshi;
+    font-weight: bold;
+}
+
+
+
+.jobs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 10px;
+    margin: 15px; 
+    margin-bottom: -40px;
+  }
+  
+  .row {
+    display: flex;
+    flex: 0 0 calc(33.33% - 20px); 
+    margin: 10px;
+  }
+  
+  .job-listings {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border: 1px solid grey;
+  }
+  
+  .job-listings h3 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    color: #333;
+  }
+
+  .h2{
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    margin-top: -10px;
+    font-weight: bold;
+  }
+  
+  .job-listings p {
+    margin: 8px 0;
+    color: #666;
+    font-size: 1rem;
+  }
+
+
+.fourth-nav{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.fourth-nav p{
+    font-size: 2rem;
+}
+
+.image{
+    background-size: cover;
+    height: 190px;
+    width: 700px;
+    margin-top: 20px;
+}
+
+
+.photos{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 65px 150px 100px 150px;
+}
+
+
+.box1{
+    color: black;
+    font-size: 1.2rem;
+    background-color: white;
+    height: 160px;
+    width: 150px;
+    border-radius: 10px;
+    gap: 30px;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: satoshi;
+    border: 1px solid grey;
+}
+
+.pic{
+    height: 40px;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -40px;
+}
+
+.view1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -90px;
+    margin-bottom: 40px;
+}
+
+
+.view{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.view-all{
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid blue;
+    width: 100px;
+    color: blue;
+    font-size: 1rem;
+    margin-top: 130px;
+}
+
+
+.fifth-nav{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.fifth-nav p{
+    font-size: 2rem;
+}
+.photos1{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 65px 150px 100px 150px;
+}
+
+
+.foot1-image{
+    background-size: cover;
+    height: 100px;
+    width: 200px;
+}
+.foot1{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    color: black; 
+    display: flex;  
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+ul{
+    margin-top: -50px;
+}
+ul a{
+    display: block;
+    font-size: 1rem;
+    margin-top: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+foot2{
+    height: 60px;
+}
+
+.foot2-image{
+    background-size: cover;
+    height: 50px;
+    width: 80%;
+    margin: -60px 40px 0 120px;
+}
+
+@media screen and (max-width: 768px) {
+    .job-listing {
+        width: 100%;
+        margin: 10px 0;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .job-listing h3 {
+        font-size: 1rem;
+    }
+
+    .job-listing p {
+        font-size: 0.9rem;
+    }
+}

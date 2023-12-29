@@ -1,0 +1,45 @@
+[
+    {
+      "title": "Software Engineer",
+      "company": "Tech Co.",
+      "location": "New York",
+      "experience": "2 years",
+      "salary": "$80,000 - $100,000"
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Data Corp.",
+      "location": "San Francisco",
+      "experience": "1 year",
+      "salary": "$70,000 - $90,000"
+    },
+    {
+      "title": "Marketing Manager",
+      "company": "Marketing Solutions Inc.",
+      "location": "Chicago",
+      "experience": "3 years",
+      "salary": "$90,000 - $110,000"
+    },
+    {
+      "title": "UX Designer",
+      "company": "Designify",
+      "location": "Seattle",
+      "experience": "2.5 years",
+      "salary": "$85,000 - $100,000"
+    },
+    {
+      "title": "Product Manager",
+      "company": "InnoTech Innovations",
+      "location": "Austin",
+      "experience": "4 years",
+      "salary": "$100,000 - $120,000"
+    },
+    {
+      "title": "Financial Analyst",
+      "company": "Finance Corp.",
+      "location": "New York",
+      "experience": "1.5 years",
+      "salary": "$65,000 - $85,000"
+    }
+  ]
+  
